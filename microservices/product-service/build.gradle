@@ -19,6 +19,8 @@ dependencies {
 	testImplementation 'io.projectreactor:reactor-test'
 	implementation project(':api')
 	implementation project(':util')
+	testCompile 'junit:junit:4.12'
+	compile 'junit:junit:4.12'
 }
 
 test {
